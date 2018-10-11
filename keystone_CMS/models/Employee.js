@@ -4,7 +4,7 @@ let keystone        =       require('keystone')
                             {
                                 map:{name:'fname'},
                                 defaultSort:'fname',
-                                defaultColumns: 'lname,fname',
+                                defaultColumns: 'fname,lname',
                                 track: true
                             });
 
