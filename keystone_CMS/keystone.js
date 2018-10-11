@@ -14,7 +14,7 @@ keystone.init({
 	'favicon': 'public/favicon.ico',
 	'views': 'templates/views',
 	'view engine': 'pug',
-
+	'mongo': process.env.MONGO_URI,
 	'auto update': true,
 	'session': true,
 	'auth': true,
@@ -31,8 +31,8 @@ keystone.set('routes', require('./routes'));
 
 keystone.set('nav', {
 	admins: 'admins',
+	Candidate: 'Candidate',
+	Employee: 'Employee',
 });
-
-
 
 keystone.start();
