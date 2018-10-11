@@ -9,6 +9,6 @@ let EmpSchema   =   new schema({
     enum : ['male','female']
     },
     address:String
-},{versionKey:false,timestamps:true});
+},{timestamps:true});
 
 module.exports = mongoose.model('Employee',EmpSchema);

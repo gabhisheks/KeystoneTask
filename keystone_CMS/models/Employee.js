@@ -4,7 +4,8 @@ let keystone        =       require('keystone')
                             {
                                 map:{name:'fname'},
                                 defaultSort:'fname',
-                                defaultColumns: 'lname,fname'
+                                defaultColumns: 'lname,fname',
+                                track: true
                             });
 
 employee.add({

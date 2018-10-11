@@ -5,10 +5,10 @@ module.exports.createData = function(req,res){
 
     let Emp =  mongoose.model('Employee');
     new Emp({
-        fname:req.fname,
-        lname:req.lname,
-        gender:req.gender,
-        address:req.address
+        fname:req.body.fname,
+        lname:req.body.lname,
+        gender:req.body.gender,
+        address:req.body.address
     })
     .save()
     .then(result =>{ res.send(result+`    data is successfully created.`)})
