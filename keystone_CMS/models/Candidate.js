@@ -19,12 +19,3 @@ candidate.add({
 });
 
 candidate.register();   
-
-
-/**
- *          Hello world!...
- *          here is prdxn1
- * 
- * 
- * 
-*/
