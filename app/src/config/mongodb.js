@@ -5,5 +5,5 @@ mongoose.connect(process.env.MONGO_URI,{ useNewUrlParser: true });
 
 let dbConnection = mongoose.connection;
 
-dbConnection.on("error",(err)=>{console.log(`connection failed with Database := ${err}`)});
+dbConnection.on("error",(err)=>{console.log(`connection failed with Database dfgd := ${err}`)});
 dbConnection.once("open",()=>{console.log("Connection Succeeded with Database.");});
