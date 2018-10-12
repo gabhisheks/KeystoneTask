@@ -19,11 +19,3 @@ employee.add({
 });
 
 employee.register();   
-
-/**
- *          Hello world!...
- *          here is prdxn
- * 
- * 
- * 
-*/
